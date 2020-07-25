@@ -2,8 +2,8 @@ var tarball = require('tarball-extract')
 var request = require('request')
 var fs = require('fs')
 
-var user = 'konsumer'
-var tag = '0.0.13'
+var user = 'schuma7'
+var tag = 'v0.0.16'
 var repoName = 'easy-ffmpeg'
 var pkg = 'ffmpeg-' + process.platform + '.tgz'
 var counter = 0
